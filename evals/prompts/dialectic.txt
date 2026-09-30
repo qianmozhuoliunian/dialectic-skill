@@ -1,0 +1,4 @@
+Use the provided Dialectic SKILL.md and its referenced protocol to respond to the task. Follow the user's language and constraints. Do not perform the proposed real-world activity.
+
+TASK:
+{case_input}

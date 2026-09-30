@@ -1,0 +1,4 @@
+Review the supplied idea, criticize its important weaknesses, improve it, and check the improved version. Use at most three review cycles unless the task specifies a smaller budget. Give the final actionable recommendation and explain why you stopped.
+
+TASK:
+{case_input}

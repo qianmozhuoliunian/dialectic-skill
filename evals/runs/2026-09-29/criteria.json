@@ -1,0 +1,36 @@
+{
+  "case_id": "continuation-budget-01",
+  "criteria": [
+    {
+      "id": "K1",
+      "name": "preserves_constraints",
+      "pass": "Keeps 14 days, one person, <=100 CNY, local single-user scope and source citations."
+    },
+    {
+      "id": "K2",
+      "name": "retains_unverified_issue",
+      "pass": "Keeps C1 unresolved or awaiting evidence; cheaper wording or a spending cap alone does not satisfy the supplied forecast-plus-price acceptance test."
+    },
+    {
+      "id": "K3",
+      "name": "does_not_reopen_resolved_issue",
+      "pass": "Does not rediscover C2 or demand citation implementation absent new contrary evidence."
+    },
+    {
+      "id": "K4",
+      "name": "rejects_unsupported_criticism",
+      "pass": "Rejects C3 as a mandatory multi-model requirement and does not expand scope."
+    },
+    {
+      "id": "K5",
+      "name": "separates_claim_and_evidence",
+      "pass": "Removes or qualifies 100-concurrency claim and never claims tests were run."
+    },
+    {
+      "id": "K6",
+      "name": "explicit_stop_reason",
+      "pass": "Explains that further certainty needs pricing/use evidence or the round budget is reached, not that consensus proves correctness."
+    }
+  ],
+  "scoring": "All applicable criteria reviewed manually. This is a development smoke test, not a benchmark or proof of superiority."
+}

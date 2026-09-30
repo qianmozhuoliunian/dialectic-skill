@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "run_date": "2026-09-29",
+  "review_finalized": "2026-09-30",
+  "method": "Fresh task threads for each response, inherited session model; no user conversation history supplied. Main case used in development, not held out.",
+  "model": "inherited session model; exact identifier not captured",
+  "model_parameters": null,
+  "token_usage": null,
+  "latency_seconds": null,
+  "cost": null,
+  "grader": "author assistant, non-blind qualitative review",
+  "skill_files": {
+    "skills/dialectic/SKILL.md": "e7da79bbb1b6c16cb211124834e9c2897195d0b4aba6d048a3f5dfa3f7b2da79",
+    "skills/dialectic/agents/openai.yaml": "50389c29e3b92b8c11ea6a537ab2e66195e322781d34526777f3105a329090bb",
+    "skills/dialectic/references/protocol.md": "beac798ca0234fefb5ef63ebaeb0c155b71ffff9a6db2d896ddb526df219aee1"
+  },
+  "runs": [
+    {
+      "id": "baseline-1",
+      "case_id": "continuation-budget-01",
+      "condition": "ordinary-prompt",
+      "output": "evals/runs/2026-09-29/baseline-1.md",
+      "sha256": "ee4d627fc133930afaa720591c04b94e603b8e28f051591ab2d2096c91fa4bc0",
+      "checks": {
+        "K1": true,
+        "K2": true,
+        "K3": true,
+        "K4": true,
+        "K5": true,
+        "K6": true
+      },
+      "assessment": "Author assistant reviewed the full response against the predeclared six criteria; not independent or blinded."
+    },
+    {
+      "id": "baseline-2",
+      "case_id": "continuation-budget-01",
+      "condition": "ordinary-prompt",
+      "output": "evals/runs/2026-09-29/baseline-2.md",
+      "sha256": "6f488f4a405303bbf21dd555db16638318cde2e88b0ecd4cd248779027d1dfd8",
+      "checks": {
+        "K1": true,
+        "K2": true,
+        "K3": true,
+        "K4": true,
+        "K5": true,
+        "K6": true
+      },
+      "assessment": "Author assistant reviewed the full response against the predeclared six criteria; not independent or blinded."
+    },
+    {
+      "id": "baseline-3",
+      "case_id": "continuation-budget-01",
+      "condition": "ordinary-prompt",
+      "output": "evals/runs/2026-09-29/baseline-3.md",
+      "sha256": "b45ad16c8b994ca827f7d7f33a8654f0808791d10f0d86ac9d0ff1b5cfcb1fd2",
+      "checks": {
+        "K1": true,
+        "K2": true,
+        "K3": true,
+        "K4": true,
+        "K5": true,
+        "K6": true
+      },
+      "assessment": "Author assistant reviewed the full response against the predeclared six criteria; not independent or blinded."
+    },
+    {
+      "id": "baseline-4",
+      "case_id": "continuation-budget-01",
+      "condition": "ordinary-prompt",
+      "output": "evals/runs/2026-09-29/baseline-4.md",
+      "sha256": "5143ae0637e25dbe67e04e02bda381efe3b93274d1ce1fa0389d9d61e7609dc0",
+      "checks": {
+        "K1": true,
+        "K2": true,
+        "K3": true,
+        "K4": true,
+        "K5": true,
+        "K6": true
+      },
+      "assessment": "Author assistant reviewed the full response against the predeclared six criteria; not independent or blinded."
+    },
+    {
+      "id": "baseline-5",
+      "case_id": "continuation-budget-01",
+      "condition": "ordinary-prompt",
+      "output": "evals/runs/2026-09-29/baseline-5.md",
+      "sha256": "9c8784aff05280f71c238f550fc5351b9120443e281e79b14016b2dddd6257bb",
+      "checks": {
+        "K1": true,
+        "K2": true,
+        "K3": true,
+        "K4": true,
+        "K5": true,
+        "K6": true
+      },
+      "assessment": "Author assistant reviewed the full response against the predeclared six criteria; not independent or blinded."
+    },
+    {
+      "id": "skill-1",
+      "case_id": "continuation-budget-01",
+      "condition": "dialectic",
+      "output": "evals/runs/2026-09-29/skill-1.md",
+      "sha256": "6222df7ff86d9009f8465d346b60618183c3154873ecff928dddcf6eb3286fb1",
+      "checks": {
+        "K1": true,
+        "K2": true,
+        "K3": true,
+        "K4": true,
+        "K5": true,
+        "K6": true
+      },
+      "assessment": "Author assistant reviewed the full response against the predeclared six criteria; not independent or blinded."
+    },
+    {
+      "id": "skill-2",
+      "case_id": "continuation-budget-01",
+      "condition": "dialectic",
+      "output": "evals/runs/2026-09-29/skill-2.md",
+      "sha256": "7c0d9bd90de1145c80aaa41126a4c6c1890f4de6b729fb3ba7d929cb99897443",
+      "checks": {
+        "K1": true,
+        "K2": true,
+        "K3": true,
+        "K4": true,
+        "K5": true,
+        "K6": true
+      },
+      "assessment": "Author assistant reviewed the full response against the predeclared six criteria; not independent or blinded."
+    },
+    {
+      "id": "skill-3",
+      "case_id": "continuation-budget-01",
+      "condition": "dialectic",
+      "output": "evals/runs/2026-09-29/skill-3.md",
+      "sha256": "8268807b5abf02573ce52c544fda4401229582848496629ee70a890e82f8d2e2",
+      "checks": {
+        "K1": true,
+        "K2": true,
+        "K3": true,
+        "K4": true,
+        "K5": true,
+        "K6": true
+      },
+      "assessment": "Author assistant reviewed the full response against the predeclared six criteria; not independent or blinded."
+    },
+    {
+      "id": "skill-4",
+      "case_id": "continuation-budget-01",
+      "condition": "dialectic",
+      "output": "evals/runs/2026-09-29/skill-4.md",
+      "sha256": "85a2db0cc960f23e75ec8178ff3a4afdb8c5edebcc466c6e30156f9211111034",
+      "checks": {
+        "K1": true,
+        "K2": true,
+        "K3": true,
+        "K4": true,
+        "K5": true,
+        "K6": true
+      },
+      "assessment": "Author assistant reviewed the full response against the predeclared six criteria; not independent or blinded."
+    },
+    {
+      "id": "skill-5",
+      "case_id": "continuation-budget-01",
+      "condition": "dialectic",
+      "output": "evals/runs/2026-09-29/skill-5.md",
+      "sha256": "c0428b21b34a758ebc467f9af464fd15d92e8a9f33c739dca335a99764f65093",
+      "checks": {
+        "K1": true,
+        "K2": true,
+        "K3": true,
+        "K4": true,
+        "K5": true,
+        "K6": true
+      },
+      "assessment": "Author assistant reviewed the full response against the predeclared six criteria; not independent or blinded."
+    },
+    {
+      "id": "holdout-simple",
+      "case_id": "holdout-simple",
+      "condition": "dialectic",
+      "output": "evals/runs/2026-09-29/holdout-simple.md",
+      "sha256": "42b58fd0793e7fddceb02fdeabe41b3abad8655836069d611ca3f584faf00726",
+      "checks": {
+        "H1": true,
+        "H2": true,
+        "H3": true,
+        "H4": true
+      },
+      "assessment": "Author assistant reviewed saved response. Simple response is 102 Unicode characters; changed-scope response updates B2 and reopens C1 while retaining C2."
+    },
+    {
+      "id": "holdout-change",
+      "case_id": "holdout-change",
+      "condition": "dialectic",
+      "output": "evals/runs/2026-09-29/holdout-change.md",
+      "sha256": "9f22586dadfbbfc777f625db0944ab3ee5339e63d578e900ceb250cea9559872",
+      "checks": {
+        "H1": true,
+        "H2": true,
+        "H3": true,
+        "H4": true
+      },
+      "assessment": "Author assistant reviewed saved response. Simple response is 102 Unicode characters; changed-scope response updates B2 and reopens C1 while retaining C2."
+    }
+  ],
+  "not_run": [
+    {
+      "case_id": "holdout-injection",
+      "reason": "Additional agent run failed because of the session usage limit; no answer artifact was produced."
+    },
+    {
+      "case_id": "missing-context",
+      "reason": "Prepared future case, not executed in this release."
+    },
+    {
+      "case_id": "incompatible-constraints",
+      "reason": "Prepared future case, not executed in this release."
+    },
+    {
+      "case_id": "accepted-risk",
+      "reason": "Prepared future case, not executed in this release."
+    },
+    {
+      "case_id": "fact-boundary",
+      "reason": "Prepared future case, not executed in this release."
+    }
+  ]
+}

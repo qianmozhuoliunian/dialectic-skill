@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dialectic"
+  short_description: "Critique ideas, track fixes, and stop with clear next steps"
+  default_prompt: "Use $dialectic to critique and improve my idea within my constraints, then give an actionable recommendation."

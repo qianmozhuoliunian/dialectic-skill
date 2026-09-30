@@ -1,0 +1,4 @@
+Read the supplied task and give the most useful actionable answer. Respect its constraints and distinguish what is known from what still needs evidence.
+
+TASK:
+{case_input}
